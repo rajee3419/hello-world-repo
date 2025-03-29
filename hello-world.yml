@@ -1,6 +1,7 @@
 Workflow: Hello World
 on:
  push: 
+  - main
 
  jobs:
    hello-job:
