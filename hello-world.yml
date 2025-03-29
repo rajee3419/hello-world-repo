@@ -1,11 +1,10 @@
-Workflow: Hello World
-on:
- push: 
-  - main
+workflow: Hello World
+on: push
+ 
 
  jobs:
    hello-job:
-   runs_on: ubuntu-latest
-   step:
-     - name: Echo text
-       run: echo "Hello, world!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo text
+        run: echo "Hello, world!"
